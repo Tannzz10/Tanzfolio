@@ -1,7 +1,7 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-// ✅ Import images from assets
+
 import pro1 from "../assets/pro1.png";
 import pro2 from "../assets/pro2.png";
 import pro3 from "../assets/pro3.png";
