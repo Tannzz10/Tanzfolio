@@ -101,8 +101,8 @@ export const Projects = () => {
       img: pro3,
       title: "Tanzfolio",
       desc: "A sleek and modern personal portfolio website that showcases my projects, designs, and creative journey. Built with React.js, Tailwind CSS, and Framer Motion, it delivers an engaging and smooth user experience.",
-      live: "#",
-      github: "#",
+      live: "https://tanisha-chauhan.vercel.app/",
+      github: "https://github.com/Tannzz10/Tanzfolio",
     },
     {
       img: pro1,
