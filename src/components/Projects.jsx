@@ -1,24 +1,29 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+// ✅ Import images from assets
+import pro1 from "../assets/pro1.png";
+import pro2 from "../assets/pro2.png";
+import pro3 from "../assets/pro3.png";
+
 export const Projects = () => {
   const projects = [
     {
-      img: "/src/assets/pro3.png",
+      img: pro3,
       title: "Tanzfolio",
       desc: "A sleek and modern personal portfolio website that showcases my projects, designs, and creative journey. Built with React.js, Tailwind CSS, and Framer Motion, it delivers an engaging and smooth user experience.",
       live: "#",
       github: "#",
     },
     {
-      img: "/src/assets/pro1.png",
+      img: pro1,
       title: "Drishti - Sees what u can't",
       desc: "An AI-powered mental health assessment platform that detects early signs of stress, anxiety, and depression using behavioral and textual data. It leverages ML & data analytics to provide personalized insights.",
       live: "#",
       github: "https://github.com/Tannzz10/Drishti-Sees-What-You-Can-t",
     },
     {
-      img: "/src/assets/pro2.png",
+      img: pro2,
       title: "Houser - Real Estate Platform",
       desc: "A modern real estate platform with property listings, search functionality, and interactive details. Built with React and modern web technologies for responsiveness and a smooth experience.",
       live: "https://houser-indol.vercel.app/",
@@ -27,13 +32,16 @@ export const Projects = () => {
   ];
 
   return (
-    <div className="pro bg-[#000000] text-white px-4 sm:px-10 lg:px-10 py-10" id="Projects">
+    <div
+      className="pro bg-[#000000] text-white px-4 sm:px-10 lg:px-10 py-10"
+      id="Projects"
+    >
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}
-        className="text-orange-500 text-4xl sm:text-5xl font-bold mb-10 "
+        className="text-orange-500 text-4xl sm:text-5xl font-bold mb-10"
       >
         Projects
       </motion.h1>

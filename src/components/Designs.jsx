@@ -1,39 +1,53 @@
 import { motion } from "framer-motion";
 import { FaEye, FaBehance } from "react-icons/fa";
 
+// Import images from assets
+import hmImage from "../assets/h&mimage.jpg";
+import sliderImage from "../assets/slider.jpg";
+
 // Design data
 const designProjects = [
   {
     id: 1,
-    img: "/src/assets/h&mimage.jpg",
+    img: hmImage,
     title: "H&M Shopping App Recreation",
     description:
       "Redesigned the H&M mobile shopping app to enhance usability, navigation, and overall user experience. Identified key UX issues in the original interface and addressed them through clean layouts and improved accessibility.",
-    viewLink: "https://drive.google.com/file/d/1XB7E1g5hyZ5xEJhQhr69QWA9Lwm6PaRU/view?usp=drivesdk", 
-    behanceLink: "https://www.behance.net/gallery/231540483/H-M-Shopping-App-Recreation", 
+    viewLink:
+      "https://drive.google.com/file/d/1XB7E1g5hyZ5xEJhQhr69QWA9Lwm6PaRU/view?usp=drivesdk",
+    behanceLink:
+      "https://www.behance.net/gallery/231540483/H-M-Shopping-App-Recreation",
   },
   {
     id: 2,
-    img: "/src/assets/slider.jpg",
+    img: sliderImage,
     title: "Juicer – 3D Carousel Slider",
     description:
       "Designed a 3D carousel slider in Figma to showcase products interactively using perspective and motion effects. Focused on enhancing user engagement through smooth transitions, layered depth, and modern UI styling.",
-    viewLink: "https://drive.google.com/file/d/1bxmQO-eU-RXB2h9cfDo-akRs4owCoytG/view?usp=drivesdk", 
-    behanceLink: "https://www.behance.net/gallery/231767901/juicer-A-3D-Carousel-Slider-made-in-figma", 
+    viewLink:
+      "https://drive.google.com/file/d/1bxmQO-eU-RXB2h9cfDo-akRs4owCoytG/view?usp=drivesdk",
+    behanceLink:
+      "https://www.behance.net/gallery/231767901/juicer-A-3D-Carousel-Slider-made-in-figma",
   },
 ];
 
 export const Designs = () => {
   return (
-    <div className="design bg-[#101010] text-white px-4 sm:px-10 lg:px-10 py-5" id="Designs">
+    <div
+      className="design bg-[#101010] text-white px-4 sm:px-10 lg:px-10 py-5"
+      id="Designs"
+    >
       <h1 className="text-orange-500 text-4xl sm:text-5xl font-bold mb-10">
         Designs
       </h1>
 
       {/* Grid Layout */}
-      <motion.div   initial={{ opacity: 0, y: 40 }}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+        transition={{ duration: 0.6 }}
+        className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto"
+      >
         {designProjects.map((project) => (
           <motion.div
             key={project.id}
@@ -74,6 +88,8 @@ export const Designs = () => {
           </motion.div>
         ))}
       </motion.div>
+
+      {/* Behance Profile Section */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -84,7 +100,7 @@ export const Designs = () => {
           Want to explore more designs?
         </p>
         <a
-          href=" https://www.behance.net/tanishachauhan11" 
+          href="https://www.behance.net/tanishachauhan11"
           target="_blank"
           rel="noopener noreferrer"
           className="block sm:inline text-orange-500 font-semibold text-lg sm:text-xl mt-2 sm:mt-0 hover:underline"
