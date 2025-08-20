@@ -124,15 +124,15 @@ export const Home = () => {
                   rel="noreferrer"
                   className="block px-4 py-2 hover:bg-gray-200 transition"
                 >
-                  Resume UI/UX
+                   Resume Web Developer 
                 </a>
                 <a
-                  href="RESUME_WEB_DEVELOPER.pdf"
+                  href="https://drive.google.com/file/d/1cS5orupJSXdlhxuCViEiGSwKUzvq4I3x/view?usp=drivesdk"
                   target="_blank"
                   rel="noreferrer"
                   className="block px-4 py-2 hover:bg-gray-200 transition"
                 >
-                  Resume Web Developer
+                 Resume UI/UX
                 </a>
               </div>
             )}
