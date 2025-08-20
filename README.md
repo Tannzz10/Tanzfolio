@@ -1,7 +1,7 @@
 # 👾 Tanzfolio
 
 Heyyy 👋 Welcome to **Tanzfolio** – my digital crib where you can see my projects, designs, & creative vibes.  
-Built with React.js, Tailwind CSS, and Framer Motion for ✨aesthetic✨ and smooth user vibes.
+
 
 ## 🛠️ Built With
 
