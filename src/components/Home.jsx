@@ -119,7 +119,7 @@ export const Home = () => {
             {dropdownOpen && (
               <div className="absolute top-full mt-2 w-52 bg-white text-black rounded-lg shadow-lg overflow-hidden z-50">
                 <a
-                  href="RESUME_UIUX.pdf"
+                  href="https://drive.google.com/file/d/1cgPk_CiObUtSKOAR88zZJkGljFHhJ7pQ/view?usp=drivesdk"
                   target="_blank"
                   rel="noreferrer"
                   className="block px-4 py-2 hover:bg-gray-200 transition"
