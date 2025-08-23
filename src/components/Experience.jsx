@@ -9,7 +9,7 @@ export const Experience = () => {
       subtitle: "GPCSSI",
       date: "02-06-25 to 02-07-25",
       description:
-        "As a Gurugram Police Cyber Security Summer Intern, I learned extensively about cyber security and threats. During this tenure, my team and I developed 'PriAware' – a real-time surveillance AI system with a unique dashboard displaying all records.As a Gurugram Police Cyber Security Summer Intern, I learned extensively about cyber security and threats. During this tenure, my team and I developed 'PriAware' – a real-time surveillance AI system with a unique dashboard displaying all records.",
+        "During my Summer Internship at gurugram cyber police, I not only gained valuable insights into cyber security and threat analysis but also worked with my team on developing PrivAware, a real-time AI-powered surveillance system. I designed and implemented a responsive dashboard capable of displaying live camera feeds, storing and managing suspicious activity records, and generating event logs with short video clips. PrivAware leverages YOLOv8 for object detection and DeepSORT for tracking, enabling it to identify unusual behaviors such as loitering or sudden movement.",
       buttons: [
         {
           label: "View Certificate",
